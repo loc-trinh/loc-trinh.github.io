@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+div.row{
+	margin: 0px 50px;
+}
+
+footer.footer {
+	margin: 0px 50px;
+}
+
+hr {
+	margin: 0px 50px;
+}
+
+#header {
+	margin-top: 40px;
+	margin-bottom: 5px;
+	border-bottom: 3px solid black;
+}
+
+p.contact {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+ul{
+	margin:0;
+    padding:0;
+	list-style-position: inside;
+}
+
+li{
+	list-style-type: square;
+	font-size: 15px;
+}
+
+h1{
+	margin: 0px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	font-size: 65px;
+}
+
+
+h3{
+	font-family: 'Lora', serif;
+	font-size: 29px;
+	padding-bottom: 8px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #7f8c8d;
+}
+
+h4{
+	font-size: 19px;
+	margin: 0px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+p{
+	font-size: 16px;
+	margin: 0px;
+	margin-bottom: 3px;
+}
+
+#coursework{
+	padding-left: 0px;
+	padding-right: 4px;
+}
+
+#projects{
+	margin-top: 2px;
+}
+
+#activities{
+	display: table;
+	width: 100%;
+	list-style: none;
+}
+
+#activities li{
+	display: table-cell;
+	text-align: center;
+}
+
