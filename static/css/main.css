@@ -241,7 +241,7 @@ p{
     color: #ffffff;
 }
  
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active,.btn-primary:visited, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
     background: #df392b;
 }
  

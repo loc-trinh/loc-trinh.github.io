@@ -15,18 +15,21 @@
 </head>
 
 <body>
-   <div id="cover">
-      <div id="heading">
-        <h1>Hi there!</h1>
-        <p> I'm Loc. I care about science, learning, startups, and web design. I'm a student at the Massachusetts Institute of Technology.</p>
-        <div id="links">
-            <a href="http://linkedin.com/in/trinhloc" id="linkedin"> <img style="width: 30px; height: 30px; margin: 0px 5px;" src="static/img/linkedin.png"></a>
-            <a href="http://github.com/loc-trinh" id="github"> <img style="width: 30px; height: 30px; margin: 0px 5px;" src="static/img/github.png"> </a>
-            <a href="mailto:loctrinh@mit.edu?Subject=Hello" id="mailto"> <img style="width: 35px; height: 40px; margin: 0px 5px;" src="static/img/mailto.png"></a>
+    <div id="cover">
+        <div id="heading">
+            <h1>Hi there!</h1>
+            <p> I'm Loc. I care about science, learning, startups, and web design. I'm a student at the Massachusetts Institute of Technology.</p>
+            <div id="links">
+                <a href="http://linkedin.com/in/trinhloc" id="linkedin"> <img style="width: 30px; height: 30px; margin: 0px 5px;" src="static/img/linkedin.png"></a>
+                <a href="http://github.com/loc-trinh" id="github"> <img style="width: 30px; height: 30px; margin: 0px 5px;" src="static/img/github.png"> </a>
+                <a href="mailto:loctrinh@mit.edu?Subject=Hello" id="mailto"> <img style="width: 35px; height: 40px; margin: 0px 5px;" src="static/img/mailto.png"></a>
+            </div>
+            <div id="read_more">
+                <button onclick="$('#header').animatescroll({scrollSpeed:800, padding:30});">RESUME</button>
+            </div>
         </div>
-        <div id="read_more"><button onclick="$('#header').animatescroll({scrollSpeed:800, padding:30});">RESUME</button></div>
-      </div>
-    </div><!-- /.cover -->
+    </div>
+    <!-- /.cover -->
     <div class="container">
         <div class="row" id="header">
             <div class="col-md-9">
@@ -174,7 +177,7 @@
                 <h4><strong> musicVisualizer </strong> | Python - Signal processing &amp; FFT </h4>
                 <p>Sept 2015 </p>
                 <ul>
-                    <li> Designed a music visualizer program  that senses beats in audio files for dorm room LEDs decoration.</li>
+                    <li> Designed a music visualizer program that senses beats in audio files for dorm room LEDs decoration.</li>
                     <li> Integrated program with Raspberry Pi and used it to host an online music app, storing songs and various playlists.
                     </li>
                     <li> Implemented smoothing concepts from signal progressing and used Fast Fourier Transforms to categorize music frequencies.
@@ -218,7 +221,9 @@
             </div>
         </div>
         <div class="row" id="download">
-            <a href="http://loc-trinh.github.io/static/files/myResume.pdf"><button type="button" class="btn btn-primary"> DOWNLOAD RESUME</button> </a>
+            <a href="http://loc-trinh.github.io/static/files/myResume.pdf">
+                <button type="button" class="btn btn-primary"> DOWNLOAD RESUME</button>
+            </a>
         </div>
         <!--         <footer class="footer">
             <p>&copy; 2015 Company, Inc.</p>
