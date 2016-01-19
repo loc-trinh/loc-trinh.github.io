@@ -15,13 +15,18 @@
 </head>
 
 <body>
-<!--    <div id="cover">
+   <div id="cover">
       <div id="heading">
-        <h1>Hello, World</h1>
-        <p>Hi there. Since you are visiting my website, I can already tell that you are a cool person. I'd like to get to know you better. My name is Loc. I'm a designer and a developer. And I love science.</p>
-        <div id="read_more"><button>READ MORE</button></div>
+        <h1>Hi there!</h1>
+        <p> I'm Loc. I care about science, learning, startups, and web design. I'm a student at the Massachusetts Institute of Technology.</p>
+        <div id="links">
+            <a href="http://linkedin.com/in/trinhloc" id="linkedin"> <img style="width: 30px; height: 30px; margin: 0px 5px;" src="static/img/linkedin.png"></a>
+            <a href="http://github.com/loc-trinh" id="github"> <img style="width: 30px; height: 30px; margin: 0px 5px;" src="static/img/github.png"> </a>
+            <a href="mailto:loctrinh@mit.edu?Subject=Hello" id="mailto"> <img style="width: 35px; height: 40px; margin: 0px 5px;" src="static/img/mailto.png"></a>
+        </div>
+        <div id="read_more"><button onclick="$('#header').animatescroll({scrollSpeed:800, padding:30});">RESUME</button></div>
       </div>
-    </div> -->
+    </div><!-- /.cover -->
     <div class="container">
         <div class="row" id="header">
             <div class="col-md-9">
@@ -212,6 +217,9 @@
                 </ul>
             </div>
         </div>
+        <div class="row" id="download">
+            <a href="http://loc-trinh.github.io/static/files/myResume.pdf"><button type="button" class="btn btn-primary"> DOWNLOAD RESUME</button> </a>
+        </div>
         <!--         <footer class="footer">
             <p>&copy; 2015 Company, Inc.</p>
         </footer> -->
@@ -221,6 +229,7 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+    <script src="static/js/animatescroll.min.js"></script>
 </body>
 
 </html>
