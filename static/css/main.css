@@ -1,10 +1,89 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
 
 body {
 	font-family: 'Open Sans', sans-serif;
 }
+
+#cover {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #1f1f1f;
+  -webkit-animation:1s unveil;
+}
+
+#heading {
+  z-index: 10;
+}
+
+#heading h1{
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 25vh;
+	color: white;
+	text-align: center;
+	font-size: 28pt;
+	font-weight: 300;
+	-webkit-animation:2s unblur;
+}
+#heading p{
+	width: 60%;
+	height: 120px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 15pt;
+	font-weight: 200;
+	-webkit-animation:3s hdown;
+}
+
+@media (max-width: 767px) {
+	#heading p{
+		font-size: 11pt;
+		width: 80%;
+	}
+}
+#heading #read_more{
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30vh;
+	-webkit-animation:4s linksina;
+}
+
+
+#heading button{
+	padding: 12px 18px;
+	border: 2px solid rgba(255,255,255,.6);
+	background: none;
+	color: white;
+}
+#heading button:hover{
+	border: 2px solid white;
+}
+
+@-webkit-keyframes unveil{
+	0%{opacity:0}
+	100%{opacity:1}
+}
+@-webkit-keyframes unblur{
+	0%,50% {opacity:0;-moz-filter:blur(30px);-ms-filter:blur(30px);-o-filter:blur(30px);-webkit-filter:blur(30px);filter:blur(30px)}
+	100%{opacity:1;-moz-filter:blur(0);-ms-filter:blur(0);-o-filter:blur(0);-webkit-filter:blur(0);filter:blur(0)}
+}
+@-webkit-keyframes hdown{
+	0%,75%{opacity:0;-webkit-transform:translateY(-75px);transform:translateY(-75px)}
+	100%{opacity:1}
+}
+@-webkit-keyframes linksina{
+	0%,75%{-webkit-transform:rotateX(-90deg);transform:rotateX(-90deg);opacity:0}
+	100%{opacity:1}
+}
+
 
 div.row{
 	margin: 0px 50px;
@@ -28,8 +107,6 @@ p.contact {
 	margin: 0px;
 	padding: 0px;
 }
-
-
 
 ul{
 	margin:0;
@@ -89,5 +166,11 @@ p{
 #activities li{
 	display: table-cell;
 	text-align: center;
+}
+
+@media (max-width: 1000px) {
+	.activity{
+		display: none;
+	}
 }
 
