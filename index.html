@@ -4,21 +4,23 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1">
     <title>Loc Trinh</title>
     <!-- Bootstrap core CSS -->
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="http://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <!-- Main CSS -->
     <link href="static/css/main.css" rel="stylesheet">
 </head>
 
 <body>
     <div id="cover">
+
         <div id="heading">
+            <div id="profile_pic">
+                <img src="static/img/profile.jpg"></img>
+            </div>
             <h1>Hi there!</h1>
-            <p> I'm Loc. I care about science, learning, startups, and web design. I'm a student at the Massachusetts Institute of Technology.</p>
+            <p> My name is Loc. I care about scientific research, software development, data science, and web design. I'm curently a CS student at the Massachusetts Institute of Technology.</p>
             <div id="links">
                 <a href="http://linkedin.com/in/trinhloc" id="linkedin"> <img style="width: 30px; height: 30px; margin: 0px 5px;" src="static/img/linkedin.png"></a>
                 <a href="http://github.com/loc-trinh" id="github"> <img style="width: 30px; height: 30px; margin: 0px 5px;" src="static/img/github.png"> </a>
@@ -79,6 +81,7 @@
                 </ul>
             </div>
         </div>
+
         <div class="row" id="education">
             <div class="col-md-5">
                 <h3> Education </h3>
@@ -114,6 +117,49 @@
                 </div>
             </div>
         </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <h3 id="projects"> Projects </h3>
+            </div>
+        </div>
+        <div class="row marketing">
+            <div class="col-md-6">
+                <h4><strong> robotLocomotion </strong> | Python - Inference</h4>
+                <p>Nov 2015</p>
+                <ul>
+                    <li> Infered robot's position using forward-backward algorithm on internal Hidden Markov model and noisy sensor data.</li>
+                    <li> Implemented Viterbi algorithm to infered the most likely sequence of the robot's positions, or hidden states.</li>
+                </ul>
+                <h4><strong> musicVisualizer </strong> | Python - Signal processing &amp; FFT </h4>
+                <p>Sept 2015 </p>
+                <ul>
+                    <li> Designed a music visualizer program that senses beats in audio files for dorm room LEDs decoration.</li>
+                    <li> Integrated program with Raspberry Pi and used it to host an online music app, storing songs and various playlists.
+                    </li>
+                    <li> Implemented smoothing concepts from signal progressing and used Fast Fourier Transforms to categorize music frequencies.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4><strong> faceRecognition </strong> | Python - Machine learning &amp; sci-kit </h4>
+                <p> August 2015 </p>
+                <ul>
+                    <li> Programmed an application in Python to video capture and detect friends’ faces using the Sci-kit learning library.
+                    </li>
+                    <li> Improved program's accuracy using Randomized SVD decomposition to construct eigenfaces. </li>
+                    <li> Succeeded in recognizing familiar faces while failing to detect and extract faces from natural pictures. </li>
+                </ul>
+                <h4><strong> langHelper </strong> | MEAN stack &amp; UI design </h4>
+                <p>Sept 2015 </p>
+                <ul>
+                    <li> Designed an online learning web application that helps user learn the syntactic differences between programming languages. </li>
+                    <li> Improved application functionalities with AJAX content, MongoDB query, and mobile responsiveness.</li>
+                </ul>
+            </div>
+        </div>
+        
         <div class="row" id="skills">
             <div class="col-md-7">
                 <h3 style="margin-top: 20px;"> Technical Skills </h3>
@@ -161,46 +207,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <h3 id="projects"> Projects </h3>
-            </div>
-        </div>
-        <div class="row marketing">
-            <div class="col-md-6">
-                <h4><strong> robotLocomotion </strong> | Python - Inference</h4>
-                <p>Nov 2015</p>
-                <ul>
-                    <li> Infered robot's position using forward-backward algorithm on internal Hidden Markov model and noisy sensor data.</li>
-                    <li> Implemented Viterbi algorithm to infered the most likely sequence of the robot's positions, or hidden states.</li>
-                </ul>
-                <h4><strong> musicVisualizer </strong> | Python - Signal processing &amp; FFT </h4>
-                <p>Sept 2015 </p>
-                <ul>
-                    <li> Designed a music visualizer program that senses beats in audio files for dorm room LEDs decoration.</li>
-                    <li> Integrated program with Raspberry Pi and used it to host an online music app, storing songs and various playlists.
-                    </li>
-                    <li> Implemented smoothing concepts from signal progressing and used Fast Fourier Transforms to categorize music frequencies.
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <h4><strong> faceRecognition </strong> | Python - Machine learning &amp; sci-kit </h4>
-                <p> August 2015 </p>
-                <ul>
-                    <li> Programmed an application in Python to video capture and detect friends’ faces using the Sci-kit learning library.
-                    </li>
-                    <li> Improved program's accuracy using Randomized SVD decomposition to construct eigenfaces. </li>
-                    <li> Succeeded in recognizing familiar faces while failing to detect and extract faces from natural pictures. </li>
-                </ul>
-                <h4><strong> langHelper </strong> | MEAN stack &amp; UI design </h4>
-                <p>Sept 2015 </p>
-                <ul>
-                    <li> Designed an online learning web application that helps user learn the syntactic differences between programming languages. </li>
-                    <li> Improved application functionalities with AJAX content, MongoDB query, and mobile responsiveness.</li>
-                </ul>
-            </div>
-        </div>
+        
         <br>
         <div class="row activity">
             <div class="col-md-12">
@@ -230,8 +237,7 @@
         </footer> -->
     </div>
     <!-- /container -->
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
     <script src="static/js/animatescroll.min.js"></script>

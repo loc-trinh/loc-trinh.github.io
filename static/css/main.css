@@ -59,10 +59,20 @@ body {
 	background-color: #c0392b;
 }
 
+#heading #profile_pic img{
+	width: 250px;
+	height: 250px;
+}
+#heading #profile_pic{
+	margin: auto;
+	padding-top: 80px;
+	text-align: center;
+	-webkit-animation:6s hdown;
+}
+
 #heading h1{
-	width: 500px;
-	margin: 0 auto;
-	padding-top: 28vh;
+	margin: auto;
+	margin-top: 20px;
 	color: white;
 	text-align: center;
 	font-size: 35pt;
@@ -75,8 +85,8 @@ body {
 	margin: 0 auto;
 	color: white;
 	text-align: center;
-	padding-top: 50px;
-	font-size: 17pt;
+	padding-top: 30px;
+	font-size: 16pt;
 	font-weight: 400;
 	-webkit-animation:3s hdown;
 	margin-bottom: 10px;
@@ -127,7 +137,7 @@ body {
 
 
 div.row{
-	margin: 0px 50px;
+	margin: 0px auto;
 }
 
 footer.footer {
