@@ -97,29 +97,6 @@ body {
 
 }
 
-@media (max-width: 767px) {
-	#heading p{
-		font-size: 20pt;
-		width: 80%;
-	}
-}
-@media (max-width: 400px) {
-	#heading p{
-		font-size: 12pt;
-		width: 80%;
-	}
-}
-@media (max-width: 350px) {
-	#heading h1{
-		font-size: 20pt;
-		margin-top:10px;
-	}
-	#heading p{
-		font-size: 12pt;
-		width: 80%;
-	}
-}
-
 #heading #read_more{
 	width: 50%;
 	text-align: center;
@@ -138,6 +115,43 @@ body {
 #heading button:hover{
 	border: 2px solid white;
 }
+
+
+/*Iphone 6*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	#heading p {
+		font-size: 12pt;
+		width: 80%;
+	}
+}
+/*Iphone 6+*/
+@media only screen 
+and (min-device-width : 412px) 
+and (max-device-width : 736px) {
+	#heading #read_more{
+		margin-top: 70px;
+	}
+}
+
+/*Iphone 5/5+*/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+	#heading h1{
+		font-size: 20pt;
+		margin-top: 0px;
+
+	}
+	#heading p {
+		font-size: 12pt;
+		width: 80%;
+		padding-top: 20px;
+	}
+}
+
+
 
 @-webkit-keyframes unveil{
 	0%{opacity:0;}
