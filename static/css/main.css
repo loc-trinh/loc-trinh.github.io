@@ -65,7 +65,7 @@ body {
 }
 #heading #profile_pic{
 	margin: auto;
-	padding-top: 40px;
+	padding-top: 10vh;
 	text-align: center;
 	-webkit-animation:6s hdown;
 }
@@ -97,7 +97,7 @@ body {
 	width: 50%;
 	text-align: center;
 	margin: 0 auto;
-	margin-top: 20vh;
+	margin-top: 50px;
 	-webkit-animation:6s linksina;
 }
 
@@ -112,11 +112,20 @@ body {
 	border: 2px solid white;
 }
 
+@media only screen
+and (max-height: 700px){
+	#heading #read_more{
+		display:none;
+	}
+}
 
 /*Iphone 6*/
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
+	#heading #read_more{
+		display:none;
+	}
 	#heading p {
 		font-size: 12pt;
 		width: 80%;
@@ -127,7 +136,7 @@ and (max-device-width : 667px) {
 and (min-device-width : 412px) 
 and (max-device-width : 736px) {
 	#heading #read_more{
-		margin-top: 70px;
+		display:none;
 	}
 }
 
@@ -144,6 +153,9 @@ and (max-device-width : 568px) {
 		font-size: 12pt;
 		width: 80%;
 		padding-top: 20px;
+	}
+	#heading #read_more{
+		display:none;
 	}
 }
 
@@ -193,7 +205,7 @@ p.contact {
 ul{
 	margin:0;
     padding:0;
-	list-style-position: inside;
+	padding-left:16px;
 }
 
 li{
