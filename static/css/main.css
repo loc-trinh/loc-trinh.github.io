@@ -38,7 +38,7 @@ body {
 	background-color: white;
 }
 #linkedin img:hover{
-	background-color: #c0392b;
+	background-color: #2980b9;
 }
 #github{
 	-webkit-animation:4.5s linksina;
@@ -47,7 +47,7 @@ body {
 	background-color: white;
 }
 #github img:hover{
-	background-color: #c0392b;
+	background-color: #2980b9;
 }
 #mailto{
 	-webkit-animation:5s linksina;
@@ -56,7 +56,7 @@ body {
 	background-color: white;
 }
 #mailto img:hover{
-	background-color: #c0392b;
+	background-color: #2980b9;
 }
 
 #heading #profile_pic img{
@@ -101,15 +101,17 @@ body {
 	-webkit-animation:6s linksina;
 }
 
-
 #heading button{
 	padding: 12px 20px;
 	border: 2px solid rgba(255,255,255,.6);
 	background: none;
 	color: white;
+    cursor: pointer;
 }
 #heading button:hover{
-	border: 2px solid white;
+	border: 2px solid #2980b9;
+    color: #2980b9;
+    font-weight: 600;
 }
 
 @media only screen
@@ -272,8 +274,7 @@ p{
 }
 
 #download{
-	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 75px;
 }
 
 .btn {
@@ -290,16 +291,17 @@ p{
 }
  
 .btn-primary {
-    background: #c0392b;
+    background: #2980b9;
     color: #ffffff;
+    cursor: pointer;
+
 }
  
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active,.btn-primary:visited, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: #df392b;
+    background: #3498db;
 }
  
 .btn-primary:active, .btn-primary.active {
-    background: #c0392b;
+    background: #2980b9;
     box-shadow: none;
 }
-
