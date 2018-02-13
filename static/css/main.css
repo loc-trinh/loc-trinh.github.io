@@ -2,38 +2,85 @@
 @import url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora);
 
-html { -webkit-font-smoothing: antialiased; }
+html { 
+	-webkit-font-smoothing: antialiased; 
+}
 body {
 	font-family: 'Open Sans', sans-serif;
 	overflow-x: hidden;
 }
-.container{
-	padding-left: 20px;
-	padding-right: 20px;
-}
 
 #cover {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  min-height: 600px;
+  min-height: 800px;
   position: relative;
   font-family: 'Open Sans', sans-serif;
   background-color: #1f1f1f;
   -webkit-animation:1s unveil;
 }
-
 #heading {
   z-index: 10;
 }
+#heading #profile_pic img{
+	width: 250px;
+	height: 250px;
+}
+#heading #profile_pic{
+	margin: auto;
+	padding-top: 100px;
+	padding-bottom: 30px;
+	text-align: center;
+	-webkit-animation:6s hdown;
+}
+#heading h1{
+	margin: auto;
+	margin-top: 5px;
+	color: white;
+	text-align: center;
+	font-size: 35pt;
+	font-weight: 400;
+	-webkit-animation:2s unblur;
+}
+#heading p{
+	width: 60%;
+	max-width: 725px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 16pt;
+	font-weight: 400;
+	-webkit-animation:3s hdown;
+	margin-bottom: 10px;
 
+}
+#heading #read_more{
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 125px;
+	-webkit-animation:6s linksina;
+}
+#heading button{
+	padding: 12px 20px;
+	border: 2px solid rgba(255,255,255,.6);
+	background: none;
+	color: white;
+    cursor: pointer;
+}
+#heading button:hover{
+	border: 2px solid #2980b9;
+    color: #2980b9;
+    font-weight: 600;
+}
 #links {
+	padding-top: 10px;
 	text-align: center;
 }
-
 #linkedin{
 	-webkit-animation:4s linksina;
 } 
-
 #linkedin img{
 	background-color: white;
 }
@@ -59,78 +106,22 @@ body {
 	background-color: #2980b9;
 }
 
-#heading #profile_pic img{
-	width: 250px;
-	height: 250px;
-}
-#heading #profile_pic{
-	margin: auto;
-	padding-top: 10vh;
-	text-align: center;
-	-webkit-animation:6s hdown;
-}
-
-#heading h1{
-	margin: auto;
-	margin-top: 5px;
-	color: white;
-	text-align: center;
-	font-size: 35pt;
-	font-weight: 400;
-	-webkit-animation:2s unblur;
-}
-#heading p{
-	width: 60%;
-	max-width: 700px;
-	margin: 0 auto;
-	color: white;
-	text-align: center;
-	padding-top: 30px;
-	font-size: 16pt;
-	font-weight: 400;
-	-webkit-animation:3s hdown;
-	margin-bottom: 10px;
-
-}
-
-#heading #read_more{
-	width: 50%;
-	text-align: center;
-	margin: 0 auto;
-	margin-top: 50px;
-	-webkit-animation:6s linksina;
-}
-
-#heading button{
-	padding: 12px 20px;
-	border: 2px solid rgba(255,255,255,.6);
-	background: none;
-	color: white;
-    cursor: pointer;
-}
-#heading button:hover{
-	border: 2px solid #2980b9;
-    color: #2980b9;
-    font-weight: 600;
-}
-
-@media only screen
-and (max-height: 700px){
-	#heading #read_more{
-		display:none;
-	}
-}
-
+/* MOBILE SCREEN */
 /*Iphone 6*/
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
+	#heading h1{
+		font-size: 20pt;
+		margin-top: 0px;
+
+	}
 	#heading #read_more{
 		display:none;
 	}
 	#heading p {
-		font-size: 12pt;
-		width: 80%;
+		font-size: 11pt;
+		width: 85%;
 	}
 }
 /*Iphone 6+*/
@@ -142,27 +133,7 @@ and (max-device-width : 736px) {
 	}
 }
 
-/*Iphone 5/5+*/
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) {
-	#heading h1{
-		font-size: 20pt;
-		margin-top: 0px;
-
-	}
-	#heading p {
-		font-size: 12pt;
-		width: 80%;
-		padding-top: 20px;
-	}
-	#heading #read_more{
-		display:none;
-	}
-}
-
-
-
+/* ANIMATIONS */
 @-webkit-keyframes unveil{
 	0%{opacity:0;}
 	100%{opacity:1;}
@@ -180,6 +151,10 @@ and (max-device-width : 568px) {
 	100%{opacity:1}
 }
 
+div.container{
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
 div.row{
 	margin: 0px auto;
@@ -285,22 +260,18 @@ p{
     text-transform: uppercase;
     border-radius:0;
 }
- 
 .btn:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
 }
- 
 .btn-primary {
     background: #2980b9;
     color: #ffffff;
     cursor: pointer;
 
 }
- 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active,.btn-primary:visited, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
     background: #3498db;
 }
- 
 .btn-primary:active, .btn-primary.active {
     background: #2980b9;
     box-shadow: none;
