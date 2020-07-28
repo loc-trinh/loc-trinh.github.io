@@ -6,6 +6,16 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
+  <div id="hyvor-talk-view"></div>
+  <script type="text/javascript">
+      var HYVOR_TALK_WEBSITE = 1329; // DO NOT CHANGE THIS
+      var HYVOR_TALK_CONFIG = {
+          url: '{{ page.url | absolute_url }}',
+          id: '{{page.id}}',
+          loadMode: 'scroll'
+      };
+  </script>
+  <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
 </div>
 
 <div class="related">
