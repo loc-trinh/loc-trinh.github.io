@@ -11,7 +11,7 @@ title:            'Loc Q Trinh'
 tagline:          'USC Ph.D.'
 description:      'CS Ph.D. student at USC | Causal Inference, Interpretability, and Healthcare | Previously MIT CSAIL, Yelp | <a href="https://twitter.com/lqtrinhz" target="_blank">@lqtrinhz</a>'
 url:              https://lqtrinh.com
-baseurl:          /
+baseurl:          /loc-trinh.github.io
 
 author:
   name:           'Loc Q Trinh'
@@ -24,7 +24,7 @@ paginate_path: "/blog/page:num/"
 version:          4.1.1
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/loc-trinh/loc-trinh.github.io
 
 plugins: [jekyll-paginate, jekyll-gist]
 gist:
