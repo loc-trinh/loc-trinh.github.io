@@ -27,3 +27,6 @@ github:
 plugins: [jekyll-gist]
 gist:
   noscript: false
+
+prod-analytics-id:  UA-173934346-1
+dev-analytics-id:   UA-173934346-2
