@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 0. Example content
+title: 0. Example Content
 ---
 
 

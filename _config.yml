@@ -17,15 +17,12 @@ author:
   name:           'Loc Q Trinh'
   url:            https://twitter.com/lqtrinhz
 
-paginate:         5
-paginate_path: "/blog/page:num/"
-
 # Custom vars
 version:          4.1.1
 
 github:
   repo:           https://github.com/loc-trinh/loc-trinh.github.io
 
-plugins: [jekyll-paginate, jekyll-gist]
+plugins: [jekyll-gist]
 gist:
   noscript: false
