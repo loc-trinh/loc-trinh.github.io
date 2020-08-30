@@ -6,16 +6,16 @@ order: 1
 
 <div class="posts">
   {% for post in site.posts %}
-  <div class="post">
+  <div class="post" style='margin-bottom: 3em !important;'>
     <h1 class="post-title">
-      <a href="{{ post.url }}">
+      <a href="{{ post.url }}" style="color: #22a6b4">
         {{ post.title }}
       </a>
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content | truncate:400}}
+    <div class="message" style='background-color:#f0f0f0; border-left: 4px solid #bbbbbb;'>{{ post.message }}</div>
   </div>
   {% endfor %}
 </div>

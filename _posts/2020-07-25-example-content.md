@@ -1,12 +1,10 @@
 ---
 layout: post
 title: 0. Example Content
+message: Hi! This is an example blog post that shows several types of HTML content. I am keeping this for easy reference :) 
 ---
 
-
-<div class="message">
-  Hi! This is an example blog post that shows several types of HTML content. I am keeping this for easy reference :) 
-</div>
+Hi! This is an example blog post that shows several types of HTML content. I am keeping this for easy reference :) 
 
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 

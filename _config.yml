@@ -10,7 +10,7 @@ permalink: /:title
 # Setup
 title:            'Loc Q Trinh'
 tagline:          'USC Ph.D.'
-description:      'CS Ph.D. student at USC | Causal Inference, Interpretability, and Healthcare | Previously MIT CSAIL, Yelp | <a href="https://twitter.com/lqtrinhz" target="_blank">@lqtrinhz</a>'
+description:      'CS Ph.D. student at USC | Vision, Inference, Interpretable ML, and Forgery Detection | Previously MIT CSAIL, Yelp | <a href="https://twitter.com/lqtrinhz" target="_blank">@lqtrinhz</a>'
 url:              https://lqtrinh.com
 baseurl:          /
 

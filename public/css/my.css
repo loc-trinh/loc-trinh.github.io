@@ -1,0 +1,161 @@
+p.award-line {
+    margin-bottom: 0.3em !important;
+}
+
+
+
+sc {
+    font-family: 'Alegreya SC', Alegreya, serif;
+}
+
+.cv-content {
+    font-family: 'Alegreya', Alegreya, serif;
+    font-size: 18px;
+    line-height: 24px;
+    width: 85%; 
+}
+
+.about-p {
+    width: 85%;
+}
+
+@media screen and (max-width:909px) {
+    .about-p {
+        width: 100%;
+    }
+    .cv-content{
+        width: 100%;
+    }
+}
+
+.cv-content h2 {
+    font-family: 'Marcellus SC', serif;
+    font-size: 1.8em;
+    padding-top: 0.4rem;
+    padding-bottom: 0.3rem;
+}
+
+.cv-content h3 {
+    font-family: freight-sans-condensed-pro, Alegreya, serif;
+    text-transform: none;
+    font-weight: 400
+}
+
+.cv-content h4 {
+    font-weight: 400;
+    margin-bottom: 0
+}
+
+.cv-content h5 {
+    font-family: 'Alegreya SC', Alegreya, serif;
+    text-transform: none;
+    font-weight: 400
+}
+
+.cv-content hr {
+    margin: 20px 0 4px 0;
+    border-top: 1px solid #799a47
+}
+
+.cv-content .sidenote {
+    font-size: 18px;
+    font-family: Alegreya, serif;
+    border-color: #fdfefa;
+    margin-top: -3px
+}
+
+.cv-content .note {
+    font-family: Alegreya, serif
+}
+
+.cv-content li .sidenote {
+    margin-top: 0
+}
+
+.cv-content ul {
+    margin-top: 0
+}
+
+.cv-content ul.experience {
+    margin-top: -.8em;
+    margin-bottom: 1.4em
+}
+
+.cv-content ul.experience li {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.cv-content p {
+    margin: 0 0 1em 0
+}
+
+.cv-content hcv {
+    font-family: 'Alegreya', Alegreya, serif;
+    margin-top: -3px;
+    font-size: 21.6px;
+    font-weight: 700
+}
+
+.no-word-break {
+    hyphens: none;
+    -ms-word-break: none !important;
+    word-break: normal !important;
+    -webkit-hyphens: none !important;
+    -moz-hyphens: none !important
+}
+
+.visible-sm {
+    display: none
+}
+
+@media screen and (max-width:909px) {
+    .visible-sm {
+        display: block
+    }
+}
+
+.visible-sm-inline {
+    display: none
+}
+
+@media screen and (max-width:909px) {
+    .visible-sm-inline {
+        display: inline
+    }
+}
+
+.invisible-sm {
+    float: right;
+    display: block;
+    text-align: left;
+    width: 200px;
+    margin-right: -220px;
+}
+
+@media screen and (max-width:909px) {
+    .invisible-sm {
+        display: none
+    }
+}
+
+.visible-md {
+    display: none
+}
+
+@media screen and (max-width:1229px) {
+    .visible-md {
+        display: block
+    }
+}
+
+.invisible-md {
+    float: right;
+    display: block
+}
+
+@media screen and (max-width:1229px) {
+    .invisible-md {
+        display: none
+    }
+}
