@@ -16,7 +16,7 @@ sc {
 }
 
 .about-p {
-    width: 85%;
+    width: 100%;
 }
 
 @media screen and (max-width:909px) {
