@@ -2,7 +2,15 @@ p.award-line {
     margin-bottom: 0.3em !important;
 }
 
+.profile{
+    width: 290px;
+}
 
+@media screen and (max-width:500px) {
+    .profile{
+        width: 100%;
+    }
+}
 
 sc {
     font-family: 'Alegreya SC', Alegreya, serif;
