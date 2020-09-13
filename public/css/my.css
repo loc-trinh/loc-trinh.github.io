@@ -4,6 +4,7 @@ p.award-line {
 
 .profile{
     width: 290px;
+    margin: 10px;
 }
 
 @media screen and (max-width:500px) {

@@ -1,5 +1,5 @@
 <div class="sidebar">
-  <div class="container sidebar-sticky">
+  <div class="container">
     <div class="sidebar-about">
       <h1 style="font-family: 'Marcellus SC', serif; font-size:2.1em">
         <a href="{{ '/' | relative_url }}">
@@ -31,15 +31,17 @@
       <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
     </nav>
 
-    <div id="social-media">
-      <a href="https://twitter.com/lqtrinhz" title="Email" rel="me"><i class="fa fa-twitter"></i></a>
-      <a href="https://github.com/loc-trinh" title="GitHub" rel="me"><i class="fa fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/trinhloc/" title="LinkedIn" rel="me"><i class="fa fa-linkedin-square"></i></a>
-      <a href="https://www.instagram.com/lqtrinhz/" title="Instagram" rel="me"><i class="fa fa-instagram"></i></a>
-
-      <a href="/atom.xml" title="RSS" rel="me"><i class="fa fa-rss"></i></a>
+    <div class="sidebar-sticky">
+      <div id="social-media">
+        <a href="https://twitter.com/lqtrinhz" title="Twitter" rel="me"><i class="fa fa-twitter"></i></a>
+        <a href="https://github.com/loc-trinh" title="GitHub" rel="me"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/trinhloc/" title="LinkedIn" rel="me"><i class="fa fa-linkedin-square"></i></a>
+        <a href="https://www.instagram.com/lqtrinhz/" title="Instagram" rel="me"><i class="fa fa-instagram"></i></a>
+  
+        <a href="/atom.xml" title="RSS" rel="me"><i class="fa fa-rss"></i></a>
+      </div>
+  
+      <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
     </div>
-
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
