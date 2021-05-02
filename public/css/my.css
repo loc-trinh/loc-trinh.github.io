@@ -81,6 +81,10 @@ sc {
     margin-top: 0
 }
 
+.cv-content #publications li {
+    margin: 0 0 3px 0;
+}
+
 .cv-content ul {
     margin-top: 0
 }
