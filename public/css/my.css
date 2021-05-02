@@ -81,7 +81,7 @@ sc {
     margin-top: 0
 }
 
-.cv-content #publications li {
+.cv-content li #publications{
     margin: 0 0 10px 0;
 }
 
